@@ -1,7 +1,7 @@
-<script lang="ts"></script>
+<script lang="ts">
+  import Sidebar from "./components/Sidebar.svelte";
+</script>
 
-<main>
-  <div class="text-blue-400">Hello World!</div>
-</main>
+<Sidebar />
 
 <style></style>

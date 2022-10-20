@@ -2,6 +2,8 @@
   import Sidebar from "./components/Sidebar.svelte";
 </script>
 
-<Sidebar />
+<main>
+  <Sidebar />
+</main>
 
 <style></style>

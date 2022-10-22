@@ -5,6 +5,6 @@ console.log(max)
 </script>
 
 
-<div class="left-[336px] top-[64px] h-[1016px] w-[1584px] bg-purple-300 absolute">
+<div class="h-[94%] w-full flex align-middle justify-evenly bg-purple-300">
 
 </div>

@@ -3,6 +3,6 @@
 </script>
 
 
-<div class="absolute left-[336px] w-[1584px] h-[64px] bg-blue-400">
+<div class="w-[100%] h-[6%] bg-yellow-400">
 
 </div>

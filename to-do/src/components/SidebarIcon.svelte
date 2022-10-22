@@ -7,6 +7,6 @@
     }
 </script>
 
-<div class="flex justify-center align-middle rounded-md h-[50px] w-[50px]  hover:bg-slate-400 {addProps}" on:click={onClickHandler} on:keypress>
+<div class="flex justify-center align-middle rounded-[90px] h-[50px] w-[50px]  hover:bg-slate-400 {addProps}" on:click={onClickHandler} on:keypress>
     <img alt="img" class=" m-2 h-[32px] w-[32px]" src={imageSource}/>
 </div>

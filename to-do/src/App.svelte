@@ -6,10 +6,10 @@ import TopBar from "./components/TopBar.svelte";
 </script>
 
 <main>
-  <div class="absolute h-full w-full flex bg-pink-300">
+  <div class="absolute h-full w-full flex">
     <Sidebar></Sidebar>
     <ProjectsPane></ProjectsPane>
-    <div class="h-full w-[83%] flex flex-col bg-green-300">
+    <div class="h-full w-[83%] flex flex-col">
       <TopBar></TopBar>
       <MainBody></MainBody>
     </div>

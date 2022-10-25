@@ -1,22 +1,23 @@
 <script lang="ts">
    let contentProjects = "+"
     let opValueProjects = "0"
-    let heightValueProjects = "[0px]"
+    let heightValueProjects = "0"
     
     let contentTasks = "+"
     let opValueTasks = "0"
-    let heightValueTasks = "[0px]"
+    let heightValueTasks = "0"
 
     function onClickHideTasks(){
         contentTasks == "-" ? contentTasks="+" : contentTasks="-"
-        opValueTasks == "0" ? opValueTasks= "" : opValueTasks = "0"
-        heightValueTasks == "[0px]" ? heightValueTasks = "[auto]" : heightValueTasks="[0px]"
+        opValueTasks == "0" ? opValueTasks= "100" : opValueTasks = "0"
+        heightValueTasks == "0" ? heightValueTasks = "auto" : heightValueTasks="0"
     }
     
     function onClickHideProject(){
         contentProjects == "-" ? contentProjects="+" : contentProjects="-"
-        opValueProjects == "0" ? opValueProjects="" : opValueProjects = "0"
-        heightValueProjects == "[0px]" ? heightValueProjects = "[auto]" : heightValueProjects="[0px]"
+        opValueProjects == "0" ? opValueProjects="100" : opValueProjects = "0"
+        heightValueProjects == "0" ? heightValueProjects = "auto" : heightValueProjects="0"
+        console.log(opValueProjects)
     }
 
 </script>
